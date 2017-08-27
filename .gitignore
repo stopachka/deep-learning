@@ -14,3 +14,6 @@ face_generation/data/
 
 */.floyd*
 
+image-classification/cifar-10-batches-py/
+image-classification/cifar-10-python.tar.gz
+
