@@ -160,6 +160,9 @@ def test_get_inputs(get_inputs):
             'Targets not a Placeholder.'
         assert lr.op.type == 'Placeholder',\
             'Learning Rate not a Placeholder.'
+	
+	assert lr.op.dtype = tf.float32,\
+	    'Learning rate needs to be tf.float32.'
 
         # Check name
         assert input_data.name == 'input:0',\
